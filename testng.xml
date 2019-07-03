@@ -1,0 +1,10 @@
+<suite name="TestChallenge">
+    <test name="testngTest">
+        <classes>
+            <class name="com.testchallenge.tests.TrelloApi" />
+            <class name="com.testchallenge.tests.TrelloMobile" />
+            <class name="com.testchallenge.tests.TrelloWeb" />
+            <class name="com.testchallenge.tests.TrelloApiValidation" />
+        </classes>
+    </test>
+</suite>
