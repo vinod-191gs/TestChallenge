@@ -65,17 +65,6 @@ public class TrelloApi {
         }
     }
 
-//    @Test(priority = 1)
-//    public void lotto_resource_returns_200_with_expected_id_and_winners() {
-//
-//        when().
-//                get(url).
-//                then().
-//                statusCode(200).
-//                body("lotto.lottoId", equalTo(5),
-//                        "lotto.winners.winnerId", hasItems(23, 54));
-//
-//    }
 
     @Test(priority = 1)
     public void createBoard() {

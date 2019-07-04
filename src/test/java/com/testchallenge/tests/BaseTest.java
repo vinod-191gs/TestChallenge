@@ -12,7 +12,7 @@ public class BaseTest extends Base {
     public static Home HomePage;
 
     @BeforeClass
-    public static void setUp() throws Exception {
-        Base.setUp();
+    public void setUp() throws Exception {
+//        Base.setUp();
     }
 }

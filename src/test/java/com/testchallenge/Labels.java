@@ -6,10 +6,10 @@ public class Labels extends Base {
     public static final String ANDROID_CAPABILITIES_DEVICE_NAME = "ZY22284PGD";
     public static final String ANDROID_CAPABILITIES_PLATFORM_VERSION = "6.0.1";
     protected static final String APPIUM_PORT_NUMBER = System.getProperty("port", APPIUM_PORT_NUMBER_DEFAULT);
-    public static final String ANDROID_CAPABILITIES_URL = "http://localhost:" + APPIUM_PORT_NUMBER + "/wd/hub";
+    public static final String ANDROID_CAPABILITIES_URL = "http://127.0.0.1:" + APPIUM_PORT_NUMBER + "/wd/hub";
     public static final String ANDROID_CAPABILITIES_APP_WAIT_ACTIVITY = "com.atimi.fugu.SplashActivity";
     public static final String ANDROID_CAPABILITIES_PACKAGE_NAME = "com.trello";
-    public static final String APP_ACTIVITY = "com.trello";
+    public static final String APP_ACTIVITY = "com.trello.feature.home.HomeActivity";
     public static final String ANDROID_CAPABILITIES_BROWSER_NAME = "Android";
     public static final String ANDROID_CAPABILITIES_APP_PATH = "../app-release_signed.apk";
     public static final String DEVICE_TYPE_DEFAULT = "phone";
